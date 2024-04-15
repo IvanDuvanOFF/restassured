@@ -15,7 +15,7 @@ import org.junit.jupiter.api.Test
 import ru.example.core.CoreTest
 import ru.example.dto.LoginDto
 
-class FirstTest : CoreTest() {
+class LoginTest : CoreTest() {
 
     override val endpoint: String
         get() = "/api/login"
